@@ -1,2 +1,2 @@
 # NextJsTutorial
-https://nextjs.org
+https://nextjs.org/create-nextjs-app
