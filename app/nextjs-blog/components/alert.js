@@ -6,7 +6,7 @@ export default function Alert({children, type}) {
         <div
             className={classNames({
                 [styles.success]:type === 'success',
-                [styles.error]: type == 'error'
+                [styles.error]: type === 'error'
             })}
         >
             {children}
