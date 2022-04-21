@@ -1,5 +1,9 @@
 FROM node:slim
 
-RUN mkdir /app
+RUN mkdir /app && mkdir /app/nextjs-blog
 
-WORKDIR /app
+COPY ./app /app
+
+WORKDIR /app/nextjs-blog
+
+RUN npm install
